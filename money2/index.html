@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>loans</title>
 
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/flex.css">
@@ -10,18 +10,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
           rel="stylesheet">
-    <link rel="stylesheet" href="style/js.js">
+
 
 
 </head>
 <body class="col">
 <div class="col page1">
     <div class="row header align-center-center">
-        <div class="row main_container">
-            <div class="row flex-30 logo align-start-center" href="#">
-
-            </div>
-            <div class="row flex align-end-center">
+        <div class="row main_container tablet-col">
+            <div class="row flex-20 logo align-start-center" href="#">loans</div>
+            <div class="row flex align-end-center mobile-col mobile-align-center-end">
                 <a href="tel:+375299528005" class="number_header">A1: +375(29)-133-3578</a>
                 <a href="tel:+375257694849" class="number_header">Life: +375(25)-547-2824</a>
                 <a href="tel:+375297637332" class="number_header">MTS: +375(29)-289-1516</a>
@@ -29,12 +27,13 @@
         </div>
     </div>
 
-    <div class="row align-center" style="padding: 45px 0;">
-        <div class="row main_container align-center">
-            <div class="col flex" style="margin: 50px 0">
-                <div class="row title align-start " style="text-decoration:overline;">Займы под любые цели</div>
-                <div class="row align-start-center ">
-                    <div class="col flex align-start-start" style="padding-right:35px">
+
+    <div class="row align-center">
+        <div class="row main_container align-center" style="margin: 0 15px">
+            <div class="col flex tablet-align-center-center" style="margin: 50px 0">
+                <div class="row title align-start tablet-align-center-center" style="text-decoration:overline;">Займы под любые цели</div>
+                <div class="row align-start-center tablet-col tablet-align-center-center ">
+                    <div class="col flex align-start-start tablet-row wrap tablet-align-center-center" style="padding-right:35px">
                         <div class="row align-center-center" style="margin: 10px 0; white-space: pre-wrap">
                             <div class="li"></div>
                             <span class="subtitle">Высокий уровень одобрения</span>
@@ -66,13 +65,15 @@
 
 
                     </div>
-                    <div class="col flex-40 form">
+                    <div class="col flex-40 form tablet-flex">
                         <div class="row  align-center-start " style="margin-bottom: 15px">
-                            <div class="row flex-70 align-start-center">Требуемая сумма</div>
-                            <div class="row flex-30 align-end-center">qwertyu</div>
+                            <div class="row flex-80 align-start-center">Требуемая сумма</div>
+                            <div class="row flex-20 align-center-center summa">
+                                <span id="outputSum" style="margin-right: 5px"></span>руб.
+                            </div>
                         </div>
                         <div class="slidecontainer flex">
-                            <input type="range" min="50" max="20000" value="10000" class="slider" id="myRange">
+                            <input type="range" min="50" max="20000" value="900" step="50" class="slider" id="myRange1">
                         </div>
                         <div class="row  form_control ">
                             <input type="text" class="form_input flex" name="name" placeholder="Ваше Имя">
@@ -97,28 +98,28 @@
     <div class="row main_container align-center-center page2">
         <div class="col align-center-center">
             <div class="row align-center-center title-page2">Лучший способ получить деньги быстро</div>
-            <div class="row flex align-center-center" style="margin: 25px 0">
-                <div class="col flex-25 align-center-center">
+            <div class="row flex align-center-center mobile-col" style="margin: 25px 0">
+                <div class="col flex-25 align-center-center tablet-flex-30 mobile-flex">
                     <div class="row flex-50">
                         <img src="style/img/page2/1.png" alt="" style="max-width: 100%; height: auto">
                     </div>
                     <div class="row flex-20 subtitle-page2">Заполните заявку на займ</div>
                     <div class="row flex-30 text-page2">Имя, телефона, город, сумма займа</div>
                 </div>
-                <div class="flex-10 ">
+                <div class="flex-10 tablet-hide">
                     <img src="style/img/page2/next.png" alt="" style="max-width: 100%; height: auto">
                 </div>
-                <div class="col  flex-25 align-center-center">
+                <div class="col  flex-25 align-center-center tablet-flex-30 mobile-flex">
                     <div class="row flex-50">
                         <img src="style/img/page2/2.png" alt="" style="max-width: 100%; height: auto">
                     </div>
-                    <div class="row flex-20 subtitle-page2">Получите одобрение <br> (10 минут)</div>
+                    <div class="row flex-20 subtitle-page2" >Получите одобрение <br> (10 минут)</div>
                     <div class="row flex-30 text-page2">Мы свяжемся с вами</div>
                 </div>
-                <div class="flex-10">
+                <div class="flex-10  tablet-hide">
                     <img src="style/img/page2/next.png" alt="" style="max-width: 100%; height: auto">
                 </div>
-                <div class="col  flex-25 align-center-center">
+                <div class="col  flex-25 align-center-center tablet-flex-30 mobile-flex">
                     <div class="row flex-50">
                         <img src="style/img/page2/3.png" alt="" style="max-width: 100%; height: auto">
                     </div>
@@ -133,7 +134,7 @@
 <div class="row align-center page-city">
     <div class="col align-center-center">
         <div class="row title-page2">Где вы можете получить деньги?</div>
-        <div class="row align-center-center subtitle-page2" style="font-size: 20px">Брест, Гродно, Лида, Гомель,
+        <div class="row align-center-center subtitle-page2" >Брест, Гродно, Лида, Гомель,
             Витебск, Полоцк, Новополоцк, Орша, Молодечно, Солигорск, Барановичи,
             Пинск, Минск, Могилев и ЛЮБОЙ НАСЕЛЕННЫЙ ПУНКТ РБ.
         </div>
@@ -152,17 +153,17 @@
                 </div>
                 <div class="row flex title-page2" style="text-decoration: none">Вероятность одобрения</div>
             </div>
-            <div class="row flex align-center-center">
+            <div class="row flex align-center-center mobile-col">
                 <div class="row align-center-center" style="margin: 0 10px">
-                    <img src="style/img/phone-call.png" alt="">
+                    <img class="tablet-hide" src="style/img/phone-call.png" alt="">
                     <a href="tel:+375299528005" class="number_header" style="color: #1b1d27">A1: +375(29)-133-3578</a>
                 </div>
                 <div class="row align-center-center" style="margin: 0 10px">
-                    <img src="style/img/phone-call.png" alt="">
+                    <img class="tablet-hide" src="style/img/phone-call.png" alt="">
                     <a href="tel:+375257694849" class="number_header" style="color: #1b1d27">Life: +375(25)-547-2824</a>
                 </div>
                 <div class="row align-center-center" style="margin: 0 10px">
-                    <img src="style/img/phone-call.png" alt="">
+                    <img class="tablet-hide" src="style/img/phone-call.png" alt="">
                     <a href="tel:+375297637332" class="number_header" style="color: #1b1d27">MTS: +375(29)-289-1516</a>
                 </div>
             </div>
@@ -174,8 +175,8 @@
     <div class="row main_container align-center-center page3">
         <div class="col align-center-center">
             <div class="row align-center-center title-page2" style="margin-bottom:20px ">Почему выбирают нас</div>
-            <div class="col flex">
-                <div class="row">
+            <div class="col flex tablet-row">
+                <div class="row tablet-col tablet-flex-50">
                     <div class="col flex align-center-center col-page3">
                         <div class="row">
                             <img src="style/img/page3/2.png" alt="" style="max-width: 100%; height: auto">
@@ -201,7 +202,7 @@
                         <div class="row flex-30 text-page2">Возраст от 18 до 75 лет</div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row tablet-col tablet-flex-50">
                     <div class="col flex align-center-center col-page3">
                         <div class="row ">
                             <img src="style/img/page3/5.png" alt="" style="max-width: 100%; height: auto">
@@ -247,7 +248,7 @@
                 <div class="li-page4"></div>
                 <span class="subtitle-page4"> Годовая процентная ставка от 25% до 90% </span>
             </div>
-            <div class="row" style="color: rgba(27,29,39,0.91); font-size: 15px">* Максимальная годовая процентная
+            <div class="row page4-text-tex" >* Максимальная годовая процентная
                 ставка, включающая ссудный процент,
                 а также все остальные комиссии и расходы за год, или аналогичный период: от 25% до 90% годовых.
                 Пример расчета общей стоимости займа, включая действующие комиссии: При процентной ставке 25% -
@@ -277,20 +278,20 @@
 
 
 <div class="row align-center-center footer">
-    <div class="row main_container align-center">
-        <div class="col flex-33 align-center-center" style="color: #FFFFFF">
+    <div class="row main_container align-center-center tablet-col">
+        <div class="col flex-33 align-center-center tablet-flex" style="color: rgba(227,225,225,0.4);margin:13px; text-align: center">
             Услуги по оформлению микрозаймов населению - не оказываем,
             в соответствии с указом Президента № 394 "О привлечении
             и предоставлении займов, деятельности микрофинансовых организаций"
         </div>
-        <div class="col flex-33 align-center-center">
+        <div class="col flex-33 align-center-center tablet-flex">
             <span style="color: #FFFFFF;font-weight:600; font-size:27px;margin-bottom:15px;">Наши контакты:</span>
             <a href="tel:+375299528005" class="row number_header flex" style="margin: 5px 0">A1: +375(29)-133-3578</a>
             <a href="tel:+375257694849" class="row number_header flex" style="margin: 5px 0">Life: +375(25)-547-2824</a>
             <a href="tel:+375297637332" class="row number_header flex" style="margin: 5px 0">MTS: +375(29)-289-1516</a>
         </div>
-        <div class="col flex-33 align-center-center" style="margin:13px">
-            <span style="color: #FFFFFF;font-size:15px;font-weight: normal"> ООО "ИнтрМани"
+        <div class="col flex-33 align-center-center tablet-flex" style="margin:13px; text-align: center">
+            <span style="color: rgba(227,225,225,0.4);font-size:15px;font-weight: normal"> ООО "ИнтрМани"
                 <br>
             УНП 569785553
                 <br>
@@ -302,7 +303,7 @@
     </div>
 </div>
 
-
+<script src="controller.js"></script>
 
 </body>
 </html>

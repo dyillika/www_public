@@ -14,6 +14,7 @@
     background:linear-gradient(to bottom, rgba(14, 14, 59, 0.8), rgba(14, 14, 59, 0.8) 100%), url("../style/img/bk4.jpg");
     background-size: cover;
 
+
 }
 
 .header{
@@ -22,7 +23,7 @@
 }
 
 .logo {
-    color: #3e4461;
+    color: #fcfcfc;
     font-size: 40px;
     font-weight: 700;
 }
@@ -41,7 +42,7 @@
 }
 
 .title{
-
+text-align: center;
     color: #fdf7f7;
     text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
     0px -5px 35px rgba(255,255,255,0.3);
@@ -57,7 +58,7 @@
     border-radius: 100%;
     background-color: #f6f6f8;
     border-color: #000000;
-    margin-right: 15px;
+    margin:0 15px;
 }
 
 .subtitle{
@@ -78,6 +79,11 @@
 
 .form_control{
     margin: 10px;
+}
+.summa{
+    font-size: 23px;
+    font-weight:600;
+    color: #020240;
 }
 
 .form_input{
@@ -118,44 +124,44 @@
 
 
 .slidecontainer {
-    width: 100%; /* Width of the outside container */
+    width: 100%;
 }
 
 /* The slider itself */
 .slider {
-    -webkit-appearance: none;  /* Override default CSS styles */
+    -webkit-appearance: none;
     appearance: none;
-    width: 100%; /* Full-width */
-    height: 15px; /* Specified height */
-    background:linear-gradient(90deg, rgb(39, 252, 177) .44%, rgb(17, 84, 252) 100%); /* Grey background */
-    outline: none; /* Remove outline */
-    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
-    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    width: 100%;
+    height: 9px;
+    background:linear-gradient(90deg, rgb(39, 252, 177) .44%, rgb(17, 84, 252) 100%);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
     transition: opacity .2s;
 }
 
-/* Mouse-over effects */
+
 .slider:hover {
-    opacity: 1; /* Fully shown on mouse-over */
+    opacity: 1;
 }
 
-/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+
 .slider::-webkit-slider-thumb {
-    -webkit-appearance: none; /* Override default look */
+    -webkit-appearance: none;
     appearance: none;
-    width: 25px; /* Set a specific slider handle width */
-    height: 25px; /* Slider handle height */
+    width: 25px;
+    height: 25px;
     border-radius: 100%;
-    background:#000000; /* Green background */
-    cursor: pointer; /* Cursor on hover */
+    background:#020240;
+    cursor: pointer;
 }
 
 .slider::-moz-range-thumb {
-    width: 25px; /* Set a specific slider handle width */
-    height: 25px; /* Slider handle height */
+    width: 25px;
+    height: 25px;
     border-radius: 100%;
-    background: #ffffff; /* Green background */
-    cursor: pointer; /* Cursor on hover */
+    background: #ffffff;
+    cursor: pointer;
 }
 
 
@@ -166,6 +172,7 @@
 }
 
 .title-page2{
+    text-align: center;
     margin-top: 35px;
     margin-bottom: 20px;
     font-size: 27px;
@@ -181,6 +188,7 @@
     color: #020240;
     font-size:17px;
     font-weight: 500;
+    text-align: center
 }
 
 .text-page2{
@@ -251,8 +259,10 @@
    border-bottom: 2px solid #000000;
 }
 
-
-
+.page4-text-tex{
+    color: rgba(27,29,39,0.91);
+    font-size: 15px;
+}
 
 
 
@@ -265,4 +275,61 @@
     background:linear-gradient(to bottom, rgba(14, 14, 59, 0.8), rgba(14, 14, 59, 0.8) 100%), url("../style/img/bk4.jpg") center;
     background-size: cover;
     padding: 15px 0;
+}
+
+
+
+
+
+@media (max-width: 960px){
+    .number_header {
+        font-size: 17px;
+    }
+}
+
+
+@media (max-width: 720px){
+    .title{
+        font-size: 39px;
+    }
+    .subtitle{
+        font-size: 19px;
+    }
+    .title-page2{
+
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 23px;
+    }
+    .subtitle-page2{
+        font-size: 15px;
+    }
+    .page4-text{
+
+        font-size: 15px;
+    }
+    .subtitle-page4{
+        font-size: 17px;
+    }
+    .page4-text-tex{
+        font-size: 12px;
+    }
+
+}
+
+
+@media (max-width: 600px){
+
+    .number_header {
+        font-size: 20px;
+    }
+    .form{
+        margin-top: 15px;
+    }
+    .text-page2{
+
+        font-size: 13px;
+
+    }
+
 }

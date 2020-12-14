@@ -205,6 +205,7 @@ body {
 }
 
 .title_page2 {
+
     color: #000000;
     font-size: 20px;
     font-weight: 600;
@@ -218,9 +219,11 @@ body {
     text-align: center;
 }
 .text_page2-text{
-    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
     color:#FFFFFF;
     text-align: center;
+    font-weight: 500;
 }
 
 
@@ -274,7 +277,7 @@ body {
     font-size: 15px;
     color: #cccccc;
     margin-bottom: 10px;
-    font-family: Roboto Slab, Sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
 
@@ -294,7 +297,7 @@ body {
 }
 
 .text_page5 {
-    font-family: "Roboto Slab", Sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     color: #cccccc;
     font-weight: 300;
@@ -307,7 +310,7 @@ body {
 .footer {
     margin-top: 35px;
     background: linear-gradient(rgba(9, 5, 47, 0.85) 0%, rgba(49, 29, 94, 0.85) 100%);
-    padding: 15px 0;
+    padding: 15px;
 }
 
 .number_footer {

@@ -235,6 +235,7 @@ font-style:italic;
 }
 
 .text-3{
+    font-family: 'Merriweather', serif;
     font-size: 18px;
      text-align: center;
     line-height:2;
@@ -384,7 +385,7 @@ font-size: 17px;
     .text-3{
         font-size: 15px;
         text-align: center;
-        line-height:1.2;
+
     }
     .page4-text{
         font-size: 14px;

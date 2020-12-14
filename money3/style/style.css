@@ -234,8 +234,10 @@ font-style:italic;
 }
 
 .text-3{
-    font-size: 15px;
+    font-family: 'Lora', serif;
+    font-size: 17px;
     text-align: center;
+    font-weight: 500;
 }
 /*         page3        */
 
@@ -277,23 +279,26 @@ font-style:italic;
 }
 
 .subtitle-page4 {
+    font-family: 'Lora', serif;
     color: rgb(23, 7, 97);
     font-size: 23px;
     font-weight: 600;
     border-bottom: 2px solid rgb(23, 7, 97);
 }
 .subtitle-q1{
+    font-family: 'Lora', serif;
     color: rgb(23, 7, 97);
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 500;
     margin: 15px 0;
     text-decoration: underline;
 }
 
 .subtitle-q{
+    font-family: 'Lora', serif;
     color: rgb(23, 7, 97);
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     margin: 15px 0;
 }
 .text-q{

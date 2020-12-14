@@ -258,6 +258,7 @@ font-style:italic;
 /*             page4         */
 
 .page4-text {
+    font-family: 'Lora', serif;
     margin: 24px 0;
     font-size: 20px;
     color:  rgb(12, 4, 49);
@@ -265,6 +266,7 @@ font-style:italic;
 }
 
 .page4-text-text{
+    font-family: 'Lora', serif;
     color: rgba(27,29,39,0.91);
     font-size: 15px;
 }
@@ -333,7 +335,7 @@ font-size: 17px;
 
 @media (max-width: 960px) {
     .text-3{
-        font-size: 14px;
+        font-size: 13px;
         text-align: center;
     }
     .subtitle {
@@ -348,6 +350,13 @@ font-size: 17px;
     .page3 {
         padding: 10px;
         margin: 10px 0;
+    }
+    .page4-text{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .subtitle-page4 {
+        font-size: 20px;
     }
 }
 

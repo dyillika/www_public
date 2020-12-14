@@ -17,6 +17,7 @@ body{
 }
 
 .title_header {
+    margin: 10px 0;
     position: relative;
     font-family: "Roboto Slab", Sans-serif;
     font-size: 50px;
@@ -33,7 +34,7 @@ body{
 }
 
 .number_header {
-    margin-bottom: 7px;
+    margin:0 7px;
     text-decoration: none;
     color: #FFFFFF;
     font-size: 20px;
@@ -58,18 +59,17 @@ body{
 }
 
 .page1 {
-    margin: 35px 0;
+    margin: 35px 15px;
 
 }
 
 .title {
-
+    text-align: center;
     font-weight: bold;
     font-size: 50px;
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 40px;
-
     text-shadow: 0 1px 0 #ccc,
     0 2px 0 #c9c9c9,
     0 3px 0 #bbb;
@@ -83,7 +83,6 @@ body{
     font-size: 40px;
     color: #FFFFFF;
     margin: 15px 0;
-
 }
 
 
@@ -182,6 +181,9 @@ body{
     font-family: "Roboto Slab", Sans-serif;
     margin-right: 10px;
 }
+.prise{
+   margin-top:40px;
+}
 
 
 /*       page2    */
@@ -265,6 +267,13 @@ body{
     font-size: 20px;
     font-weight: 500;
 }
+.page4-text{
+    font-size: 15px;
+    color: #cccccc;
+    margin-bottom:10px;
+    font-family:Roboto Slab, Sans-serif;
+    font-weight: 300;
+}
 
 
 /*       page5       */
@@ -311,4 +320,105 @@ body{
 .number_footer:hover {
     color: #e0e2ec;
     text-decoration: underline;
+}
+
+.footer-text{
+   color: #dbd8d8;
+    font-size:15px;
+    margin:0 15px;
+}
+
+
+@media (max-width: 960px){
+    .title{
+        margin-bottom: 0;
+    }
+
+    .prise{
+        margin-top: 20px;
+    }
+
+    .subtitle {
+        font-size: 25px;
+    }
+    .title_form::before {
+        height: 7px;
+    }
+    .title_page4::before {
+        height: 7px;
+    }
+    .page5{
+        padding:10px 25px;
+    }
+    .footer-text{
+        margin:15px;
+        text-align: center;
+    }
+
+
+
+
+}
+
+@media (max-width: 720px){
+
+    .subtitle {
+        font-size: 20px;
+    }
+    .title{
+       font-size: 35px;
+    }
+    .title_form{
+     font-size:30px ;
+    }
+    .subtitle_form {
+        font-weight: 300;
+        font-size: 12px;
+    }
+    .title_form::before {
+        height: 5px;
+    }
+    .title_page4::before {
+        height: 5px;
+    }
+    .title_page2{
+        font-size: 17px;
+    }
+
+    .text_page2{
+        font-size: 14px;
+    }
+    .text_page4{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .page4-text{
+        font-size: 13px;
+        font-weight: 300;
+    }
+
+    .text_page5{
+        font-size: 14px;
+    }
+
+
+
+
+
+}
+
+
+
+
+@media (max-width: 660px){
+    .prise{
+        margin-top: 10px;
+    }
+    .title_form::before {
+        height: 3px;
+    }
+    .title_page4::before {
+        height: 3px;
+    }
+
 }

@@ -1,0 +1,268 @@
+.body {
+
+}
+
+.main_container {
+    width: 1200px;
+    font-family: 'Roboto Slab', serif;
+}
+
+/*     header     */
+
+.page1{
+
+    background:linear-gradient(to bottom, rgba(14, 14, 59, 0.8), rgba(14, 14, 59, 0.8) 100%), url("../style/img/bk4.jpg");
+    background-size: cover;
+
+}
+
+.header{
+    padding: 15px;
+
+}
+
+.logo {
+    color: #3e4461;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.number_header {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.number_header:hover{
+    color: #cccccc;
+    text-decoration: underline;
+}
+
+.title{
+
+    color: #fdf7f7;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+    0px -5px 35px rgba(255,255,255,0.3);
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom:35px ;
+}
+
+
+.li{
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    background-color: #f6f6f8;
+    border-color: #000000;
+    margin-right: 15px;
+}
+
+.subtitle{
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.form{
+    font-size: 23px;
+    font-weight:600;
+    padding: 35px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.58);
+    color: #020240;
+    box-shadow: -1px 9px 18px 0px rgba(118, 127, 142, 0.73);
+}
+
+.form_control{
+    margin: 10px;
+}
+
+.form_input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(80, 77, 65);
+    font-weight: 500;
+    color: #000000;
+    font-size: 17px;
+}
+
+.btn{
+    font-family: 'Roboto Slab', serif;
+    margin-top: 25px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    background:linear-gradient(90deg,rgb(42, 37, 199) .35%, rgb(40, 98, 243) 57% , rgb(38, 239, 169) 100%);
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+    padding: 10px 20px;
+    box-shadow: -1px 9px 18px 0px rgba(32, 14, 191, 0.73);
+    transition: linear .5s;
+}
+
+.btn:hover {
+    background:linear-gradient(90deg,rgb(42, 37, 199) .35%, rgb(40, 98, 243) 57% , rgb(38, 239, 169) 100%);
+    box-shadow: -1px 9px 18px 0px rgba(118, 127, 142, 0.73);
+    transition: linear .3s;
+}
+
+
+
+
+
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 15px; /* Specified height */
+    background:linear-gradient(90deg, rgb(39, 252, 177) .44%, rgb(17, 84, 252) 100%); /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    border-radius: 100%;
+    background:#000000; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    border-radius: 100%;
+    background: #ffffff; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+
+/*                   page2         */
+
+.page2{
+    margin: 50px 0;
+}
+
+.title-page2{
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-size: 27px;
+    font-weight: bold;
+    text-decoration: overline;
+    color: #020240;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.subtitle-page2{
+    font-family: 'Roboto Slab', serif;
+    margin: 10px;
+    color: #020240;
+    font-size:17px;
+    font-weight: 500;
+}
+
+.text-page2{
+    color: #030303;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+
+/*           page-city         */
+
+.page-city{
+    background-color: rgba(145, 145, 173, 0.15);
+    margin: 25px 0;
+    box-shadow: -7px 5px 25px 1px rgba(118, 127, 142, 0.73);
+    padding-bottom: 15px;
+}
+
+
+
+/*         page3        */
+
+.page3{
+  border-radius: 15px;
+    box-shadow: -7px 5px 25px 1px rgba(118, 127, 142, 0.73);
+    background-color:#FFFFFF;
+
+}
+
+
+.col-page3{
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    white-space: pre-wrap;
+}
+
+/*             page4         */
+
+.page4{
+    background:linear-gradient(to bottom, rgba(226, 220, 246, 0.9), rgba(217, 217, 248, 0.9) 100%),url("../style/img/bk3.jpg");
+    background-size: cover;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: -1px 9px 18px 0px rgba(118, 127, 142, 0.73);
+}
+
+.page4-text{
+    margin: 15px 0;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 500;
+}
+.li-page4{
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    background-color: #2e2e2f;
+    border-color: #000000;
+    margin-right: 15px;
+}
+
+.subtitle-page4{
+    color: #2e2e2f;
+    font-size: 23px;
+    font-weight: 500;
+   border-bottom: 2px solid #000000;
+}
+
+
+
+
+
+
+
+/*        footer      */
+
+.footer{
+    font-family: 'Roboto Slab', serif;
+    margin-top: 35px;
+    background:linear-gradient(to bottom, rgba(14, 14, 59, 0.8), rgba(14, 14, 59, 0.8) 100%), url("../style/img/bk4.jpg") center;
+    background-size: cover;
+    padding: 15px 0;
+}

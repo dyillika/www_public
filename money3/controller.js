@@ -12,3 +12,10 @@ output2.innerHTML = slider2.value
 slider2.oninput = function () {
     output2.innerHTML = slider2.value
 }
+
+var slider3 = document.getElementById("myRange3")
+var output3 = document.getElementById("outputSum3")
+output3.innerHTML = slider3.value
+slider3.oninput = function () {
+    output3.innerHTML = slider3.value
+}

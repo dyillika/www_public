@@ -216,7 +216,11 @@ body {
     font-size: 17px;
     font-weight: 500;
     text-align: center;
-
+}
+.text_page2-text{
+    font-size: 15px;
+    color:#FFFFFF;
+    text-align: center;
 }
 
 
@@ -371,6 +375,9 @@ body {
 
     .text_page2 {
         font-size: 15px;
+    }
+    .text_page2-text{
+        font-size: 13px;
     }
 
     .text_page4 {

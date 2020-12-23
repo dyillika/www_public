@@ -241,7 +241,7 @@
 /*             page4         */
 
 .page4{
-    background:linear-gradient(to bottom, rgba(220, 246, 221, 0.9), rgba(220, 246, 221, 0.9) 100%),url("../style/img/bk3.jpg");
+    background:linear-gradient(to bottom, rgba(220, 246, 221, 0.9), rgba(220, 246, 221, 0.9) 100%),url("../style/img/bk4.jpg");
     background-size: cover;
     border-radius: 15px;
     padding: 20px;
@@ -320,7 +320,6 @@ border-bottom: none;
         font-size: 15px;
     }
     .page4-text{
-
         font-size: 15px;
     }
     .subtitle-page4{

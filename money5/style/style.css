@@ -1,0 +1,344 @@
+.body {
+
+}
+
+.main_container {
+    width: 1200px;
+    font-family: 'Roboto Slab', serif;
+}
+
+/*     header     */
+
+.page1{
+
+    background:linear-gradient(to bottom right , rgba(233, 255, 216, 0.35) 60%, rgba(233, 255, 216, 0.84) 100%), url("../style/img/bk4.jpg");
+    background-size: cover;
+    box-shadow: 0 0 5px;
+}
+
+.header{
+    padding: 15px;
+
+}
+
+.logo {
+    color: #062301;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.number_header {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #01280e;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.number_header:hover{
+    color: #015c19;
+    text-decoration: underline;
+}
+
+.title{
+   text-align: center;
+    text-decoration: underline;
+    color: #000000;
+    text-shadow: 2px 8px 6px rgba(1, 97, 38, 0.2),
+    0px -5px 35px rgba(0, 187, 23, 0.3);
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom:55px ;
+}
+
+
+.li{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 4px solid #000000;
+    margin:0 15px;
+}
+
+.subtitle{
+    text-decoration: underline;
+    border-bottom: 2px solid #0D1620;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.form{
+    font-size: 23px;
+    font-weight:600;
+    padding: 35px;
+    border-radius: 15px;
+    background-color: rgba(2, 250, 111, 0.11);
+    color: #000000;
+    box-shadow: -1px 9px 18px 0px rgba(244, 248, 246, 0.73);
+}
+
+.form_control{
+    margin: 10px;
+}
+.summa{
+    font-size: 23px;
+    font-weight:600;
+    color: #000000;
+}
+
+.form_input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 4px solid rgba(93, 173, 106, 0.6);
+    font-weight: 500;
+    color: #000000;
+    font-size: 17px;
+}
+
+.btn{
+    font-family: 'Roboto Slab', serif;
+    margin-top: 25px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    background:linear-gradient(90deg, rgb(94, 199, 37) .35%, rgb(54, 243, 40) 57% , rgb(38, 239, 82) 100%);
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    color: #000000;
+    letter-spacing: 3px;
+    padding: 10px 20px;
+    box-shadow: -1px 9px 18px 0px rgba(0, 24, 11, 0.73);
+    transition: linear .5s;
+}
+
+.btn:hover {
+    background:linear-gradient(90deg, rgb(36, 226, 78) .35%, rgb(51, 226, 38) 57% , rgb(82, 175, 32) 100%);
+    box-shadow: -1px 9px 18px 0px rgba(118, 127, 142, 0.73);
+    transition: linear .3s;
+}
+
+
+
+
+
+
+.slidecontainer {
+    width: 100%;
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 7px;
+    background:linear-gradient(90deg, rgb(94, 199, 37) .35%, rgb(54, 243, 40) 57% , rgb(38, 239, 82) 100%);
+    outline: none;
+    opacity: 1;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+
+.slider:hover {
+    opacity: 0.8;
+}
+
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background:#000000;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: #000000;
+    cursor: pointer;
+}
+
+
+/*                   page2         */
+
+.page2{
+    margin: 50px 0;
+    border-radius: 15px;
+    box-shadow: -7px 5px 25px 1px rgba(3, 182, 3, 0.73);
+    background-color:#FFFFFF;
+}
+
+.title-page2{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration:underline;
+    border-bottom: 2px solid  #000000;
+    color: #000000;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.subtitle-page2{
+    font-family: 'Roboto Slab', serif;
+    margin: 10px;
+    color: #000000;
+    font-size:23px;
+    font-weight: 500;
+    text-align: center
+}
+
+.text-page2{
+    color: #030303;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+
+/*           page-city         */
+
+.page-city{
+    background:linear-gradient(to bottom, rgba(249, 252, 249, 0.75), rgba(249, 252, 249, 0.75) 100%), url("../style/img/bk2.jpg") center;
+    background-size: cover;
+    margin: 25px 0;
+    box-shadow: -7px 5px 25px 1px rgba(119, 151, 119, 0.73);
+    padding-bottom: 15px;
+}
+
+
+
+/*         page3        */
+
+.page3{
+  border-radius: 15px;
+    box-shadow: -7px 5px 25px 1px rgba(3, 182, 3, 0.73);
+    background-color:#FFFFFF;
+
+}
+
+
+.col-page3{
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    white-space: pre-wrap;
+}
+
+/*             page4         */
+
+.page4{
+    background:linear-gradient(to bottom, rgba(220, 246, 221, 0.9), rgba(220, 246, 221, 0.9) 100%),url("../style/img/bk3.jpg");
+    background-size: cover;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: -1px 9px 18px 0px rgba(118, 142, 119, 0.73);
+}
+
+.page4-text{
+    margin: 15px 0;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 500;
+}
+.li-page4{
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    border:3px solid #000000;
+    margin-right: 15px;
+}
+
+.subtitle-page4{
+    text-decoration: underline;
+    color: #000000;
+    font-size: 23px;
+    font-weight: 500;
+   border-bottom: 3px solid #000000;
+}
+
+.page4-text-tex{
+    color: rgba(27,29,39,0.91);
+    font-size: 15px;
+}
+
+
+
+
+/*        footer      */
+
+.footer{
+    font-family: 'Roboto Slab', serif;
+    margin-top: 35px;
+    background:linear-gradient(to bottom, rgba(241, 255, 239, 0.3), rgba(229, 252, 220, 0.3) 100%), url("../style/img/bk2.jpg") center;
+  background-size: cover;
+    padding: 15px 0;
+}
+
+
+
+
+
+@media (max-width: 960px){
+    .number_header {
+        font-size: 17px;
+    }
+    .city{
+        margin-top: 15px;
+    }
+}
+
+
+@media (max-width: 720px){
+    .title{
+        font-size: 39px;
+    }
+    .subtitle{
+        font-size: 19px;
+    }
+    .title-page2{
+
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 23px;
+    }
+    .subtitle-page2{
+        font-size: 15px;
+    }
+    .page4-text{
+
+        font-size: 15px;
+    }
+    .subtitle-page4{
+        font-size: 17px;
+    }
+    .page4-text-tex{
+        font-size: 12px;
+    }
+
+}
+
+
+@media (max-width: 600px){
+
+    .number_header {
+        font-size: 20px;
+    }
+    .form{
+        margin-top: 15px;
+    }
+    .text-page2{
+
+        font-size: 13px;
+
+    }
+
+}

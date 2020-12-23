@@ -16,6 +16,10 @@
     box-shadow: 0 0 5px;
 }
 
+. page1-1{
+    margin: 40px 15px;
+}
+
 .header{
     padding: 15px;
 
@@ -48,7 +52,7 @@
     0px -5px 35px rgba(0, 187, 23, 0.3);
     font-size: 70px;
     font-weight: 700;
-    margin-bottom:55px ;
+    margin:55px 0;
 }
 
 
@@ -76,6 +80,7 @@
     background-color: rgba(2, 250, 111, 0.11);
     color: #000000;
     box-shadow: -1px 9px 18px 0px rgba(244, 248, 246, 0.73);
+    margin-bottom: 25px;
 }
 
 .form_control{
@@ -288,9 +293,6 @@
 
 
 @media (max-width: 960px){
-    .number_header {
-        font-size: 17px;
-    }
     .city{
         margin-top: 15px;
     }
@@ -298,14 +300,18 @@
 
 
 @media (max-width: 720px){
+    . page1-1{
+        margin:0 10px;
+    }
     .title{
         font-size: 39px;
+        margin: 15px;
     }
     .subtitle{
         font-size: 19px;
     }
     .title-page2{
-
+border-bottom: none;
         margin-top: 15px;
         margin-bottom: 10px;
         font-size: 23px;
@@ -318,10 +324,14 @@
         font-size: 15px;
     }
     .subtitle-page4{
+        border-bottom: none;
         font-size: 17px;
     }
     .page4-text-tex{
         font-size: 12px;
+    }
+    .number_header{
+        font-size: 15px;
     }
 
 }

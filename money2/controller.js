@@ -14,7 +14,7 @@ function getJson(url, params, success, error) {
 getJson("http://www.geoplugin.net/json.gp?lang=ru",{}, function (data) {
     document.getElementById('location').innerText = data.geoplugin_city
 }, function () {
-    document.getElementById('location').innerText = "error"
+    document.getElementById('location').innerText = ""
 })
 
 

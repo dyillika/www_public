@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Легкие деньги</title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/flex.css">
+
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
           integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
@@ -17,42 +19,35 @@
 
 </head>
 <body class="col">
-<div class="row header align-center-center show tablet-hide">
-    <div class="row main_container" style="margin: 10px 0">
-        <span class="row flex-30 logo align-start-center">
+<div class="row header align-center-center">
+    <div class="row main_container" style="margin: 10px 0 ">
+        <span class="row flex-20 logo align-start-center tablet-hide">
             Легкие деньги
         </span>
-        <div class="row flex align-end-center">
-            <div class="row flex align-end-center tablet-col">
-                <a href="tel:+375299528005" class="number_header">A1: +375(29)-133-3578</a>
-                <a href="tel:+375257694849" class="number_header">Life: +375(25)-547-2824</a>
-                <a href="tel:+375297637332" class="number_header">MTS: +375(29)-289-1516</a>
+            <div class="row tel flex align-end-center tablet-align-center-center mobile-col mobile-align-center-center">
+                <a href="tel:+375299528005" class="number_header">A1: +375(29)-952-8005</a>
+                <a href="tel:+375257694849" class="number_header">Life: +375(25)-769-4849</a>
+                <a href="tel:+375297637332" class="number_header">MTS: +375(29)-763-7332</a>
             </div>
-        </div>
-    </div>
-</div>
-
-<div class="row header align-center-center hide tablet-show">
-    <div class="row main_container" style="margin: 20px 0">
-        <a class="row flex-50 logo align-start-center" href="https://tpverstak.ru/">
-            Типичный верстальщик
-        </a>
-        <div class="row flex-50 align-end-center">
-            <i class="fas fa-bars header_icon fa-2x"></i>
-        </div>
     </div>
 </div>
 
 <div class="row align-center-center">
     <div class="row main_container align-center-center">
-        <div class="col align-center-center" style="margin: 15px 0">
-            <div class="title">Выгодные займы наличными</div>
-            <video controls style="width: 80%">
-                <source src="imgq/vid/111.mp4" type="video/mp4">
-                <source src="imgq/vid/111%20(1).ogv" type="video/ogg">
-            </video>
-            <span class="col title" style="text-align: center">Возьмите деньги в долг от 50 до 20000 рублей на любые цели за 10 минут. Без справок и поручителей. Нужен только ваш паспорт или вид на жительство. Работаем во всех городах РБ.</span>
-            <img src="imgq/1.png" alt="">
+        <div class="col">
+            <div class="title row" style="text-decoration: underline">Выгодные займы наличными</div>
+            <div class="row align-start-start tablet-col tablet-align-center-center" style="margin: 15px 0">
+                <div class="row flex-60 align-center-center tablet-flex">
+                    <video controls>
+                        <source src="imgq/vid/111.mp4" type="video/mp4">
+                        <source src="imgq/vid/111%20(1).ogv" type="video/ogg">
+                    </video>
+                </div>
+                <span class="col flex-40 title tablet-flex" style="margin:0 20px;text-align:justify ">Возьмите деньги в долг от 50 до 20000 рублей на любые цели за 10 минут. Без справок и поручителей. Нужен только ваш паспорт или вид на жительство. Работаем во всех городах РБ. Вероятность одобрения 97,8%.</span>
+            </div>
+            <div class="row align-center-center">
+                <img src="imgq/1.png" alt="">
+            </div>
         </div>
     </div>
 </div>
@@ -98,16 +93,24 @@
                         <div class="popup__container">
                             <div class="popup__wrapper">
                                 <div id="blablabla">
-                                    <form class="col align-center-center" role="form" action="/requestFine"
+                                    <form class="form col align-center-center" role="form" action="/requestFine"
                                           autocomplete="off" method="POST">
-                                        <label>Ваше имя:</label>
-                                        <input type="text" name="nameReq">
-                                        <label>Сумма займа</label>
-                                        <input type="text" name="lastNameReq">
-                                        <label>Телефон:</label>
-                                        <input type="text" name="telReq">
-                                        <label>Ваш город</label>
-                                        <input type="text" name="textReq">
+                                        <div class="col flex align-center-center">
+                                            <labelk class="input-form-text">Ваше имя:</labelk>
+                                            <input class="input-form" type="text" name="nameReq">
+                                        </div>
+                                        <div class="col align-center-center">
+                                            <label class="input-form-text ">Сумма займа</label>
+                                            <input class="input-form" type="text" name="lastNameReq">
+                                        </div>
+                                        <div class="col align-center-center">
+                                            <label class="input-form-text ">Телефон:</label>
+                                            <input class="input-form" type="text" name="telReq">
+                                        </div>
+                                        <div class="col align-center-center">
+                                            <label class="input-form-text ">Ваш город</label>
+                                            <input class="input-form" type="text" name="textReq">
+                                        </div>
                                         <button type="submit" class="btn btn-success">Отправить</button>
                                     </form>
                                 </div>
@@ -128,7 +131,7 @@
     <div class="row main_container align-center-center page1">
         <div class="row tablet-col tablet-align-center-center">
             <div class="row flex-30 align-center-center hide tablet-show tablet-flex-20">
-                <img class="page" src="imgq/page2.jpg" alt="">
+                <img class="page" src="imgq/page2.png" alt="">
             </div>
             <div class="col flex-70 tablet-flex-80" style="margin: 30px">
                 <div class="row page_title" style="margin-left: 10px">На самых выгодных условиях</div>
@@ -307,6 +310,10 @@
                             <img src="imgq/number-three-button.png" alt="" style="margin:10px">
                             <span class="text">Заберите деньги</span>
                         </div>
+                        <div class="row align-center-center">
+                            <div class="li"></div>
+                            <span class="text">На банковскую карту, наличными в нашем офисе</span>
+                        </div>
                     </div>
                 </div>
                 <div class="row flex-30 align-center-center tablet-hide">
@@ -315,104 +322,199 @@
             </div>
 
             <form class="col align-center-center">
-                <div class="row align-center-center">
-                    <div class="col align-center-center ">
-                        <labelk>Ваше имя:</labelk>
-                        <input type="text" name="nameReq">
+                <div class="form row align-center-center wrap mobile-col">
+                    <div class="col align-center-center">
+                        <labelk class="input-form-text ">Ваше имя:</labelk>
+                        <input class="input-form" type="text" name="nameReq">
                     </div>
                     <div class="col align-center-center">
-                        <label>Сумма займа</label>
-                        <input type="text" name="lastNameReq">
+                        <label class="input-form-text ">Сумма займа</label>
+                        <input class="input-form" type="text" name="lastNameReq">
                     </div>
                     <div class="col align-center-center">
-                        <label>Телефон:</label>
-                        <input type="text" name="telReq">
+                        <label class="input-form-text ">Телефон:</label>
+                        <input class="input-form" type="text" name="telReq">
                     </div>
                     <div class="col align-center-center">
-                        <label>Ваш город</label>
-                        <input type="text" name="textReq">
+                        <label class="input-form-text ">Ваш город</label>
+                        <input class="input-form" type="text" name="textReq">
                     </div>
                 </div>
-                <button type="submit" class="btn row align-center-center">Отправить</button>
+                <button type="submit" class="btn btn-success">Отправить</button>
             </form>
 
-
         </div>
     </div>
 </div>
+
+
+<div class="row align-center-center">
+    <img src="imgq/1.png" alt="">
+</div>
+
+
+<div class="row align-center-center">
+    <div class="row main_container align-center-center page1">
+        <div class="row tablet-col tablet-align-center-center">
+            <div class="row flex-30 align-center-center tablet-flex-20">
+                <img class="page" src="imgq/page5.jpg" alt="" style="margin: 10px 0">
+            </div>
+            <div class="col flex-70 tablet-flex-80" style="margin: 30px">
+                <div class="row page_title" style="margin-left: 10px">Или просто позвоните нам и мы поможем</div>
+                <div class="row align-start-center wrap ">
+                    <div class="row align-center-center">
+                        <div class="li"></div>
+                        <a href="tel:+375299528005" class=" number_header " style="color: #000000">A1:
+                            +375(29)-952-8005</a>
+                    </div>
+                    <br>
+                    <div class="row align-center-center">
+                        <div class="li"></div>
+                        <a href="tel:+375257694849" class=" number_header " style="color: #000000">Life:
+                            +375(25)-769-4849</a>
+                    </div>
+                    <br>
+                    <div class="row align-center-center">
+                        <div class="li"></div>
+                        <a href="tel:+375297637332" class=" number_header " style="color: #000000">MTS:
+                            +375(29)-763-7332</a>
+                    </div>
+                    <div class="row page_title" style="margin-left: 10px">Мы ответим на все интересующие вас вопросы и
+                        поможем подобрать самые выгодные условия займа
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row align-center-center">
+    <img src="imgq/1.png" alt="">
+</div>
+
 
 <div class="row align-center-center">
     <div class="row main_container page2">
         <div class="col">
             <div class="col align-center-start">
                 <div class="row dialog">
-                    <span>PDF ежедневник для фронтендеров</span>
+                    <span>О нас и для вас</span>
                 </div>
                 <div class="row" style="text-align: justify">
-                <span class="page_title ">РАНЬШЕ МЫ ПРОДАВАЛИ ПЕЧАТНУЮ ВЕРСИЮ, НО ПОСЛЕ ПОЛНОЙ РАСПРОДАЖИ РЕШИЛИ ПЕРЕЙТИ НА ЭЛЕКТРОННУЮ ВЕРСИЮ.
-                    ИСПОЛЬЗУЙ СТРАНИЧКИ ТАК, КАК ТЕБЕ НУЖНО!</span>
+                    <span class="page_title ">
+                        Наша компания уже 8 лет успешно работает на финансовом рынке Беларуси. За это время мы одобрили больше 79 тысяч заявок на получение крупных и мелких сумм.У нас самое лучшее предложение на рынке!
+                        Чтобы получить деньги нужен только паспорт и ничего более!
+                        И Вам не стоит беспокоиться за утечку информации и Ваших данных
+                        — мы обеспечиваем полную конфиденциальность!Если нужно взять
+                        деньги в долг для покупок, отдыха или на мелкие расходы,
+                        рекомендуем обратиться к нам. Мы поможем осуществить вашу мечту,
+                        на которую не хватает некоторой суммы денег, предоставим ее в долг с минимальными процентами.
+                    Мы выдаём деньги без поручителей, залога и лишних справок. Мы - это надёжный и быстрый аналог банковского кредита.</span>
                 </div>
                 <div class="img_sc_img"></div>
             </div>
             <div class="col align-center-center">
-                <div class="row align-center-center">
-                    <img class="sc_img" src="imgq/page5.png" alt="">
+                <div class="row align-center-center video" >
+                    <video controls>
+                        <source src="imgq/vid/222.mp4" type="video/mp4">
+                        <source src="imgq/vid/222(2).ogv" type="video/ogg">
+                    </video>
                 </div>
             </div>
-            <div class="row align-center-center">
-                <button class="btn_page2" href="#">Перейти на сайт</button>
+            <div class="row" style="text-align: justify">
+                    <span class="page_title ">
+                       Состояние кредитной истории не имеет решающего значения при принятии решения о выдаче займа.
+                        Хорошая репутация в финансовой сфере будет плюсом. Но мы работаем и с заемщиками, которые не
+                        могут похвастаться идеальным прошлым. Даем второй шанс лицам с отрицательной историей кредитования.
+                        Многие берут займ для улучшения кредитной истории.
+                        Чтобы поправить положение, воспользуйтесь финансовым продуктом и погасите долг вовремя.</span>
             </div>
-
         </div>
     </div>
 </div>
+
+<div class="row align-center-center">
+    <img src="imgq/1.png" alt="">
+</div>
+
 
 <div class="row align-center-center">
     <div class="row main_container page2">
         <div class="col">
             <div class="col align-center-start">
                 <div class="row dialog">
-                    <span>Frontend Help — онлайн платформа для вопросов</span>
+                    <span>Часто задаваемые вопросы </span>
+                </div>
+                <div class="row align-center-center">
+                    <div class="li"></div>
+                    <span class="page_title">Какая процентная ставка? И что это такое?</span>
                 </div>
                 <div class="row">
-                    <span class="page_title ">Собственная онлайн-платформа, где ты можешь получить ответы онлайн по верстке или фронтенду.</span>
+                    <span class=" text">Наша годовая процентная ставка составляет от 25% до 90%. Она включает в себя ссудный процент, а также все остальные комиссии и расходы за год, или аналогичный период: от 25% до 90% годовых. Пример расчета общей стоимости займа, включая действующие комиссии: При процентной ставке 25% - Взяли 1 рубль, вернуть в течение года необходимо 1 руб. 25 коп. равными платежами на протяжении оговоренного срока ( от 61 дня до 3-х лет)</span>
                 </div>
-                <div class="img_sc_img"></div>
-            </div>
-            <div class="col align-center-center">
                 <div class="row align-center-center">
-                    <img class="sc_img" src="imgq/page6.png" alt="">
+                    <div class="li"></div>
+                    <span class="page_title">Какие у вас действую штрафные санкции за просрочку платежа?</span>
                 </div>
-            </div>
-            <div class="row align-center-center">
-                <button class="btn_page2" href="#">Перейти на сайт</button>
+                <div class="row">
+                    <span class=" text">У нас самые низкие штрафные санкции за просрочку платежа во всей стране.
+                За просрочку платежа начисляется пеня в размене 0,1%-0,5% от суммы текущего платежа</span>
+                </div>
+                <div class="row align-center-center">
+                    <div class="li"></div>
+                    <span class="page_title">Можно ли взять деньги в долг с плохой кредитной историей?</span>
+                </div>
+                <div class="row">
+                    <span class=" text">Состояние кредитной истории не имеет решающего значения при принятии решения о выдаче займа. Хорошая репутация в финансовой сфере будет плюсом. Но мы работаем и с заемщиками, которые не могут похвастаться идеальным прошлым. Даем второй шанс лицам с отрицательной историей кредитования. Многие берут займ для улучшения кредитной истории. Чтобы поправить положение, воспользуйтесь финансовым продуктом и погасите долг вовремя.</span>
+                </div>
+                <div class="row align-center-center">
+                    <div class="li"></div>
+                    <span class="page_title">Оформят ли на меня деньги в долг, если я не имею официального места работы?</span>
+                </div>
+                <div class="row">
+                    <span class=" text">Отличие – в упрощенной процедуре получения и минимальных суммах занимаемых средств. Банки требуют от клиента много документов и выдают, как правило, долгосрочные крупные кредиты. Мы же, наоборот, не требуем от клиентов подтверждения их доходов и помогаем получить даже маленькие суммы.</span>
+                </div>
+                <div class="row align-center-center">
+                    <div class="li"></div>
+                    <span class="page_title">Сколько нужно ждать до получения денег ?</span>
+                </div>
+                <div class="row">
+                    <span class=" text">Мы предоставяем вам возможность получить заём на требуемую сумму прямо здесь и сейчас. Теперь не нужно долго ждать одобрения по займу. Все быстро, удобно и сделано для экономии Вашего времени. Деньги получаете наличными либо на карту в день обращения, в течение 20 минут. Все расчеты только в белорусских рублях.</span>
+                </div>
+                <div class="row align-center-center">
+                    <div class="li"></div>
+                    <span class="page_title">Почему деньги в долг это выгодно?</span>
+                </div>
+                <div class="row">
+                    <span class=" text">Наша компания оказывает помощь в получении даже небольшой суммы денег под минимальные проценты. Процентные ставки на наши операции начинаются с 0,1 % в день – поверьте, это очень мало! Кроме того, для оформления не понадобятся ни залог, ни поручители – только документ, подтверждающий личность.</span>
+                </div>
+                <div class="row align-center-center">
+                    <div class="li"></div>
+                    <span class="page_title">Какое отличие денег в долг от кредита?</span>
+                </div>
+                <div class="row">
+                    <span class=" text">Отличие – в упрощенной процедуре получения и минимальных суммах занимаемых средств. Банки требуют от клиента много документов и выдают, как правило, долгосрочные крупные кредиты.
+                        Мы же, наоборот, не требуем от клиентов подтверждения их доходов и помогаем получить даже маленькие суммы.</span>
+                </div>
+                <div class="row align-center-center">
+                    <div class="li"></div>
+                    <span class="page_title">На какой срок можно заключить договор на деньги в долг?</span>
+                </div>
+                <div class="row">
+                    <span class=" text">Договор заключается на срок от 61 дня до 3-х лет, а погасить задолженность можно досрочно.</span>
+                </div>
+                <div class="row align-center-center">
+                    <div class="li"></div>
+                    <span class="page_title">Возможно ли досрочное погашение займа?</span>
+                </div>
+                <div class="row">
+                    <span class=" text">Досрочное погашение возможно на любом сроке. Сумма возвращаемых денег не изменяется. Процесс оплаты занимает 2-3 минуты. Более 60 % населения РБ регулярно пользуется услугами терминалов, это удобно и быстро никаких очередей.</span>
+                </div>
+                <div class="row dialog" style="text-align: center">
+                    <span>Остались интересующие Вас вопросы? Позвоните нам или оставьте заявку на сайте и Мы свяжемся с Вами.</span>
+                </div>
             </div>
 
-        </div>
-    </div>
-</div>
-
-<div class="row align-center-center" style="margin-bottom: 80px">
-    <div class="row main_container page2">
-        <div class="col">
-            <div class="col align-center-start">
-                <div class="row dialog">
-                    <span>Frontend Blok — учебная платформа</span>
-                </div>
-                <div class="row" style="text-align: justify">
-                    <span class="page_title ">ЭТО НАША АВТОРСКАЯ УЧЕБНАЯ ПЛАТФОРМА, КОТОРАЯ ПРЕДЛАГАЕТ <a
-                            class="link_page2" href="#"> КУРСЫ ПО ВЕРСТКЕ САЙТОВ</a> БЕЗ ВОДЫ.</span>
-                </div>
-                <div class="img_sc_img"></div>
-            </div>
-            <div class="col align-center-center">
-                <div class="row align-center-center">
-                    <img class="sc_img" src="imgq/page7.png" alt="">
-                </div>
-            </div>
-            <div class="row align-center-center">
-                <button class="btn_page2" href="#">Перейти на сайт</button>
-            </div>
         </div>
     </div>
 </div>
@@ -420,57 +522,25 @@
 <div class="row align-center-center" style="background-color:#000000 ">
     <div class="row main_container footer tablet-align-center-center">
         <div class="row tablet-col tablet-align-center-center">
-            <div class="col flex-25 align-start-start tablet-align-center-center tablet-flex" style="margin: 30px">
-                <div class="footer_title">Соц.сети</div>
+            <div class="col flex-33 align-start-start tablet-align-center-center tablet-flex" style="margin: 30px">
+                <div class="footer_title" style="margin: 0 10px">Телефон:</div>
                 <div class="border"></div>
-                <a class="link_footer" href="#">Youtube</a>
-                <a class="link_footer" href="#">Вконтакте</a>
-                <a class="link_footer" href="#">Телеграм</a>
-                <a class="link_footer" href="#">Телеграм Чат</a>
-                <a class="link_footer" href="#">Инстаграм</a>
-                <div class="row">
-                    <div class="flex-33 icon">
-                        <i class="fab fa-cc-visa"></i>
-                    </div>
-                    <div class="flex-33 icon">
-                        <i class="fab fa-cc-mastercard"></i>
-                    </div>
-                    <div class="flex-33 icon">
-                        <i class="fab fa-cc-paypal"></i>
-                    </div>
+                <div class="col flex  tablet-col">
+                    <a href="tel:+375299528005" class="number_header">A1: +375(29)-952-8005</a>
+                    <a href="tel:+375257694849" class="number_header">Life: +375(25)-769-4849</a>
+                    <a href="tel:+375297637332" class="number_header">MTS: +375(29)-763-7332</a>
                 </div>
             </div>
-            <div class="col flex-25 align-start-start tablet-align-center-center tablet-flex" style="margin: 30px">
-                <div class="footer_title">Курсы</div>
-                <div class="border"></div>
-                <a class="link_footer" href="#">Базовый курс</a>
-                <a class="link_footer" href="#">ПРОДВИНУТЫЙ КУРС</a>
-                <a class="link_footer" href="#">JAVASCRIPT МАСТЕР</a>
-                <a class="link_footer" href="#">WORDPRESS МАСТЕР</a>
-                <a class="link_footer" href="#">МАРАФОН FLEXBOX CSS</a>
-                <a class="link_footer" href="#">МАРАФОН GRID CSS</a>
-                <a class="link_footer" href="#">МАРАФОН SVG</a>
+            <div class="col flex-33 align-start-start tablet-align-center-center tablet-flex" style="margin: 30px">
+                <div class="text_footer">Услуги по оформлению микрозаймов населению - не оказываем,
+                    в соответствии с указом Президента № 394 "О привлечении и предоставлении займов, деятельности микрофинансовых организаций"</div>
+
             </div>
-            <div class="col flex-25 align-start-start tablet-align-center-center tablet-flex" style="margin: 30px">
-                <div class="footer_title">ПОЛЕЗНОСТИ</div>
-                <div class="border"></div>
-                <a class="link_footer" href="#">ШПАРГАЛКА FLEXBOX CSS</a>
-                <a class="link_footer" href="#">ШПАРГАЛКА GRID CSS</a>
-                <a class="link_footer" href="#">ШПАРГАЛКА АДАПТИВНОСТИ</a>
-                <a class="link_footer" href="#">НАЗВАНИЯ КЛАССОВ</a>
-                <a class="link_footer" href="#">ШАБЛОН HTML</a>
-                <a class="link_footer" href="#">СБОРЩИК GULP</a>
-            </div>
-            <div class="col flex-25 align-start-start tablet-align-center-center tablet-flex" style="margin: 30px">
-                <div class="footer_title" style="text-align:center; white-space: pre-wrap">ПРОБЛЕМЫ С ВЁРСТКОЙ ИЛИ
-                    ФРОНТЕНД РАЗРАБОТКОЙ?
-                </div>
-                <button class="btn_footer">Задай свой вопрос</button>
-                <span class="text_footer">ИНН 663005760277</span>
-                <span class="text_footer">ОГРНИП 319665800052422</span>
-                <a class="link_footer" href="#" style="text-align:center; white-space: pre-wrap">Политика
-                    конфиденциальности</a>
-                <a class="link_footer" href="#">Публичная оферта</a>
+            <div class="col flex-33 align-start-start tablet-align-center-center tablet-flex" style="margin: 30px">
+                <span class="text_footer">ООО "Маниэнгрупп"</span>
+                <span class="text_footer">УНП 263353577</span>
+                <span class="text_footer">Юр. адрес :
+                г. Минск,ул. Притыцкого 156. секция 126.</span>
             </div>
         </div>
     </div>
